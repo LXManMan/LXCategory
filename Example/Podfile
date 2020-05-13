@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LXCategory_Example' do
+  pod 'LXCategory', :path => '../'
+
+  target 'LXCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
