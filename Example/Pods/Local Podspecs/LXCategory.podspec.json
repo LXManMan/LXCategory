@@ -1,0 +1,22 @@
+{
+  "name": "LXCategory",
+  "version": "0.1.0",
+  "summary": "A short description of LXCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiushu0228@163.com/LXCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiushu0228@163.com": "liuxx22@midea.com"
+  },
+  "source": {
+    "git": "https://github.com/jiushu0228@163.com/LXCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LXCategory/Classes/**/*"
+}
