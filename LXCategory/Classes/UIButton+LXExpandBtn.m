@@ -61,7 +61,7 @@ static const NSString *KEY_HitTestEdgeInsets = @"hitTestEdgeInsets";
 //添加点击事件-
 -(void)addClickBlock:(ButtonBlock)block
 {
-    
+    NSLog(@"log");
     self.block = block;
     [self addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
 }
